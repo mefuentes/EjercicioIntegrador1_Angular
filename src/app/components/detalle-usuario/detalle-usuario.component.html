@@ -1,0 +1,12 @@
+<div *ngIf="usuario" class="card">
+    <div class="card-header">
+      <h3>{{ usuario.name }}</h3>
+    </div>
+    <div class="card-body">
+      <p><strong>Email:</strong> {{ usuario.email }}</p>
+      <p><strong>Teléfono:</strong> {{ usuario.phone }}</p>
+      <p><strong>Website:</strong> {{ usuario.website }}</p>
+      <p><strong>Empresa:</strong> {{ usuario.company.name }}</p>
+    </div>
+  </div>
+  
